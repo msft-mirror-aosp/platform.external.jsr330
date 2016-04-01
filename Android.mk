@@ -22,6 +22,12 @@ LOCAL_PATH := $(call my-dir)
 
 jsr330_src_files := $(call all-java-files-under, src)
 
+# Target build
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := $(jsr330_src_files)
+LOCAL_MODULE := jsr330
+include $(BUILD_STATIC_JAVA_LIBRARY)
+
 # Host-side Java build
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := $(jsr330_src_files)
