@@ -23,6 +23,7 @@ java_library_static {
     name: "jsr330",
     host_supported: true,
     hostdex: true,
+    sdk_version: "current",
     srcs: ["src/**/*.java"],
 }
 //
