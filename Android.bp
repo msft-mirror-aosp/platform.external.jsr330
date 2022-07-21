@@ -42,6 +42,10 @@ java_library_static {
     hostdex: true,
     sdk_version: "core_current",
     srcs: ["src/**/*.java"],
+    apex_available:[
+        "//apex_available:platform",
+        "com.android.adservices",
+    ],
 }
 //
 // TCK (Test Compatibility Kit)
