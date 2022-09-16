@@ -45,6 +45,7 @@ java_library_static {
     apex_available:[
         "//apex_available:platform",
         "com.android.adservices",
+	"com.android.healthconnect",
         "com.android.ondevicepersonalization",
     ],
 }
