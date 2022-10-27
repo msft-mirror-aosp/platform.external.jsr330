@@ -60,4 +60,9 @@ java_library_host {
         "jsr330",
         "junit",
     ],
+    errorprone: {
+        javacflags: [
+            "-Xep:OverridesJavaxInjectableMethod:WARN",
+        ],
+    },
 }
