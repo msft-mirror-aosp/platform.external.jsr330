@@ -45,6 +45,8 @@ java_library_static {
     apex_available:[
         "//apex_available:platform",
         "com.android.adservices",
+        "com.android.devicelock",
+	"com.android.healthconnect",
         "com.android.ondevicepersonalization",
     ],
 }
@@ -58,4 +60,9 @@ java_library_host {
         "jsr330",
         "junit",
     ],
+    errorprone: {
+        javacflags: [
+            "-Xep:OverridesJavaxInjectableMethod:WARN",
+        ],
+    },
 }
