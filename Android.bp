@@ -48,8 +48,8 @@ java_library_static {
         "com.android.devicelock",
         "com.android.extservices",
         "com.android.healthfitness",
-        "com.android.ondevicepersonalization",
         "com.android.mediaprovider",
+        "com.android.ondevicepersonalization",
     ],
 }
 
