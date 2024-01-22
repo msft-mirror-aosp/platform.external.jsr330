@@ -49,6 +49,7 @@ java_library_static {
         "com.android.extservices",
         "com.android.healthfitness",
         "com.android.ondevicepersonalization",
+        "com.android.mediaprovider",
     ],
 }
 
